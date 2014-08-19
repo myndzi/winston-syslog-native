@@ -4,6 +4,7 @@
   "description": "winston transport for syslog using native logging functions via node-syslog",
   "main": "./lib/winston-syslog-native",
   "scripts": {
+    "test": "vows --spec"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
   },
   "devDependencies": {
     "winston": "0.7.x",
-    "vows": "0.6.x"
+    "vows": "0.7.x"
   },
   "author": "Vadim Geshel",
   "license": "MIT",
