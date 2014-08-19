@@ -17,8 +17,8 @@ var path = require('path'),
     SyslogNative = require('../lib/winston-syslog-native').SyslogNative;
 
 function assertSyslogNative (transport) {
-      assert.instanceOf(transport, SyslogNative);
-      assert.isFunction(transport.log);
+    assert.instanceOf(transport, SyslogNative);
+    assert.isFunction(transport.log);
 };
 
 var transport = new SyslogNative();
