@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vgeshel/winston-syslog-native.git"
+    "url": "git://github.com/myndzi/winston-syslog-native.git"
   },
   "keywords": [
     "logging",
@@ -19,13 +19,16 @@
   "dependencies": {
     "node-syslog": "1.1"
   },
+  "peerDependencies": {
+    "winston": "0.7.x"
+  },
   "devDependencies": {
-    "winston": "0.7",
+    "winston": "0.7.x",
     "vows": "0.6.x"
   },
   "author": "Vadim Geshel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vgeshel/winston-syslog-native/issues"
+    "url": "https://github.com/myndzi/winston-syslog-native/issues"
   }
 }
